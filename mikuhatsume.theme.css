@@ -1,11 +1,11 @@
 /**
-* @name Miku Hatsume
+* @name MikuHatsume-Bademeister
 * @version 1.0
 * @description A Miku Hatsume theme
 * @author Badmeister9
 * @Source https://github.com/Bademeister9/Betterdiscordtheme
 */
-@import url("https://github.com/Bademeister9/BetterdiscordTheme/blob/main/coremiku.css");
+@import url("https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/coremiku.css");
 
 :root {
     --main-theme-color: #43b1b5;
