@@ -13,9 +13,9 @@
     /*Home Change!*/
     --main-icon-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/homebetterdiscordlogo.png');
     /*User click smaller Pop-out change"*/
-    --tiny-user-popout-background-image: url('https://onii-chan.de/betterdiscord/mikuminibox.png');
+    --tiny-user-popout-background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/minibox.jpg');
     /*User click bigger Pop-out change!*/
-    --big-user-popout-background-image: url('https://onii-chan.de/betterdiscord/mikuminibox.png');
+    --big-user-popout-background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/minibox.jpg');
     /*End of pictures*/
     /*Main*/
     --main-theme-color: #43b1b5;
