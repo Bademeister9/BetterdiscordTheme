@@ -9,9 +9,9 @@
 :root {
     --textsize: 100%;
     /*Main theme Change! 1 Time*/
-    --background-image: url('https://onii-chan.de/betterdiscord/themebetterdiscord.png');
+    --background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/Betterdiscord.jpg');
     /*Home Change!*/
-    --main-icon-image: url('https://onii-chan.de/betterdiscord/homebetterdiscordlogo.png');
+    --main-icon-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/homebetterdiscordlogo.png');
     /*User click smaller Pop-out change"*/
     --tiny-user-popout-background-image: url('https://onii-chan.de/betterdiscord/mikuminibox.png');
     /*User click bigger Pop-out change!*/
