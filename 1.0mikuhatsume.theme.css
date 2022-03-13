@@ -5,35 +5,20 @@
 * @author Badmeister9
 * @Source https://github.com/Bademeister9/Betterdiscordtheme
 */
-/*var*/
 :root {
     --textsize: 100%;
-    /*Main theme Change! 1 Time*/
     --background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/Betterdiscord.jpg');
-    /*Home Change!*/
     --main-icon-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/homebetterdiscordlogo.png');
-    /*pop out doubled in the popout size EDIT!
-    big left and right
-    tiny up and down
-    */
-    /*User click smaller Pop-out change"*/
     --tiny-user-popout-background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/minibox.jpg');
-    /*User click bigger Pop-out change!*/
     --big-user-popout-background-image: url('https://raw.githubusercontent.com/Bademeister9/BetterdiscordTheme/main/pictures/minibox.jpg');
-    /*End of pictures*/
-    /*Main*/
     --main-theme-color: #43b1b5;
     --theme-transparency: rgba(0, 0, 0, 0.37);
-    /*Home*/
     --main-icon-image-zoom: 100%;
     --main-icon-image-position: center;
-    /*tiny*/
     --tiny-user-popout-background-transparency: #00000099;
     --tiny-user-popout-background-image-position: center;
-    /*big*/
     --big-user-popout-background-transparency: #00000099;
     --big-user-popout-background-image-position: center;
-    /*emoji bg colors*/
     --emoji-menu-background-color: rgba(0, 0, 0, 0.42);
     --emoji-menu-sider-background-color: rgba(0, 0, 0, 0.4);
     --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.13);
@@ -43,40 +28,31 @@
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: #ffffff1a;
     --reaction-emoji-hover-border-color: #ffffff33;
-    /*mention*/
     --mention-color: rgba(19, 225, 177, 0.04);
     --mention-sider: #faa61aff;
     --mention-hover-color: rgba(19, 225, 177, 0.06);
-    /*video*/
     --video-screen-button-background-color: #c8c8c833;
     --video-screen-button-foreground-color: #ffffffff;
     --video-screen-button-background-hovor-color: #c8c8c866;
     --video-screen-button-foreground-hovor-color: #ffffffff;
-    /*search messages*/
     --message-search-menu-background-color: #000000cc;
     --message-search-container-background-color: #00000099;
     --message-search-result-background-color: #c8c8c80d;
-    /*text/voice channels*/
     --text-voice-channel-color: #8e9297ff;
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #ffffff;
     --unread-text-channel-color: #ffffff;
     --unread-text-channel-bubble-color: #ffffff;
-    /*message bar*/
     --new-messages-bar-background-color: #7289da;
     --new-messages-bar-font-color: #ffffff;
-    /*folder*/
     --folder-background-color: #2f3136;
     --expanded-folder-background-color: #00000000;
-    /*unread server*/
     --unread-message-divider-color: #f04747;
     --unread-message-divider-font-color: #ffffff;
     --unread-server-animation: rainbow;
-    /*Channel*/
     --channel-limit-count-color: #43b581;
     --channel-limit-background-left: #c8c8c81a;
     --channel-limit-background-right: #c8c8c833;
-    /*other*/
     --server-listing-width: 72px;
     --category-hover-color: #3cca8aff;
     --member-listing-role-color: #43b581ff;
@@ -89,20 +65,16 @@
     --add-discover-icon-transparency: #c8c8c826;
     --add-discover-icon-color: #43b581;
     --scrollbar-color: #c8c8c833;
-    /*end*/
 }
-/*Css beginn*/
 html {
     font-family: monospace, serif;
     font-size: var(--font-size) !important
 }
-/*Main bg image*/
 .appMount-2yBXZl {
     background-image: var(--background-image);
     background-size: cover
 }
-/**/
-/*main icon/home icon*/
+
 .tutorialContainer-2sGCg9 .wrapper-28eC3z .childWrapper-1j_1ub {
     background: var(--main-icon-image) !important;
     background-position: var(--main-icon-image-position) !important;
@@ -117,8 +89,6 @@ html {
     background-size: var(--main-icon-image-zoom) !important;
     border-radius: 100%
 }
-/**/
-/*tiny user interface pop-up*/
 .userPopout-2j1gM4 {
     background-position: var(--tiny-user-popout-background-image-position);
     background-image: var(--tiny-user-popout-background-image)
@@ -150,8 +120,6 @@ html {
     background-color: var(--tiny-user-popout-background-transparency);
     margin-top: 0
 }
-/*tiny pop up end*/
-/*big user interface*/
 .root-8LYsGj {
     background-position: var(--big-user-popout-background-image-position);
     background-image: var(--big-user-popout-background-image);
@@ -172,8 +140,6 @@ html {
 .body-1Ukv50 {
     background-color: var(--big-user-popout-background-transparency)
 }
-/*big user end*/
-/*emoji*/
 .contentWrapper-3vHNP2 {
     background-color: var(--emoji-menu-background-color)
 }
@@ -205,8 +171,7 @@ html {
 .translate-PeW1wK.didRender-2SiRlm .emojiPicker-6YCk8a {
     background-color: var(--emoji-menu-background-color)
 }
-/*emoji end*/
-/*mention*/
+
 .mentioned-Tre-dv:before {
     background-color: var(--mention-sider)
 }
@@ -218,8 +183,6 @@ html {
 .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
     background-color: var(--mention-hover-color)
 }
-/*mention*/
-/*video/screen*/
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
     background-color: var(--video-screen-button-background-color);
     color: var(--video-screen-button-foreground-color)
@@ -228,8 +191,6 @@ html {
     background-color: var(--video-screen-button-background-hovor-color);
     color: var(--video-screen-button-foreground-hovor-color)
 }
-/*end*/
-/*message search*/
 .theme-dark .container-2McqkF {
     background-color: var(--message-search-menu-background-color)
 }
@@ -239,8 +200,6 @@ html {
 .searchResult-O9NDji {
     background-color: var(--message-search-result-background-color)
 }
-/*end*/
-/*text voice channel*/
 .modeMuted-2T4MDZ:hover .name-28HaxV, .wrapper-NhbLHG:hover .name-28HaxV {
     color: var(--text-voice-channel-hover-color)
 }
@@ -268,16 +227,14 @@ html {
 .unread-36eUEm {
     background-color: var(--unread-text-channel-bubble-color)
 }
-/*end*/
-/*new messages*/
+
 .newMessagesBar-1hF-9G {
     background-color: var(--new-messages-bar-background-color)
 }
 .newMessagesBar-1hF-9G button {
     color: var(--new-messages-bar-font-color)
 }
-/*end*/
-/*expand folder */
+
 .expandedFolderBackground-1kSAf6 {
     background-color: var(--expanded-folder-background-color)
 }
@@ -285,8 +242,7 @@ html {
 .folder-241Joy {
     background-color: var(--folder-background-color)
 }
-/**/
-/*channel limit*/
+
 .wrapper-2fEmwW {
     color: var(--channel-limit-count-color)
 }
@@ -299,8 +255,7 @@ html {
 .total-1c5KCN {
     background-color: var(--channel-limit-background-right)
 }
-/**/
-/*other*/
+
 .headerTop-2cWpdB {
     background-color: initial;
     border-bottom: none
